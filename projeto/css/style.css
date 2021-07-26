@@ -1,0 +1,48 @@
+body {
+	background: whitesmoke;
+	padding: 15px;
+}
+
+canvas {
+	border: 1px solid gainsboro;
+	background: white;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+}
+
+.container {
+	position: relative;
+	margin: auto;
+	height: 400px;
+	width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+.apex {
+margin-top: 50%;   
+}
